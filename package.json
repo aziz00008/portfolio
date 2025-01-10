@@ -5,10 +5,9 @@
   "homepage": "https://aziz00008.github.io/portfolio/",
   "type": "module",
   "scripts": {
-     
- "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-    ,"dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -17,9 +16,11 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
     "emailjs-com": "^3.2.0",
+    "lottie-react": "^2.4.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",
+    "react-lottie-player": "^2.1.0",
     "react-router-dom": "^7.1.1"
   },
   "devDependencies": {

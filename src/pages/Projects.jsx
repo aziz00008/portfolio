@@ -4,12 +4,12 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
   {
-    title: 'Project One',
-    description: 'A brief description of Project One.',
-    image: '/path-to-image1.jpg', // Place images in public folder or import them
+    title: 'Project jfneinfw',
+    description: 'project',
+    image: '/path.jpg', // Place images in public folder or import them
     tech: ['React', 'Bootstrap'],
     liveLink: 'https://live-demo.com',
-    repoLink: 'https://github.com/yourusername/project-one',
+    repoLink: 'https://github.com/',
   },
   // Add more projects as needed
 ];

@@ -1,9 +1,9 @@
-// src/pages/Home.jsx
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Mypic from '../assets/profile.jpeg'; // Ensure the path is correct
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import './Home.css'; // Add a separate CSS file for custom styling
 
 const Home = () => {
   useEffect(() => {
@@ -22,12 +22,12 @@ const Home = () => {
             style={{ width: '300px', height: '300px', objectFit: 'cover' }}
           />
         </div>
-        
+
         {/* Text Column */}
         <div className="col-md-8 text-center text-md-start" data-aos="fade-left">
           <h1 className="display-4">Hi this is Aziz, </h1>
           <p className="lead">A driven developer who enjoys designing and building meaningful technology</p>
-          <Link to="/projects" className="btn btn-primary btn-lg mt-3">
+          <Link to="/projects" className="modern-btn mt-3">
             View My Work
           </Link>
         </div>

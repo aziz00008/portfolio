@@ -12,11 +12,9 @@ const About = () => {
         </div>
         <div className="col-md-8">
           <p>
-            [Write a brief introduction about yourself, your background, skills, and interests.]
-          </p>
+            testtest test  </p>
           <p>
-            [Add more details about your journey, what motivates you, and your professional goals.]
-          </p>
+            test test   </p>
         </div>
       </div>
     </div>

@@ -17,7 +17,7 @@ const Footer = () => {
             <FaTwitter size={30} />
           </a>
         </div>
-        <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Aziz Keskes. All rights reserved.</p>
       </div>
     </footer>
   );

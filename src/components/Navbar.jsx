@@ -22,16 +22,16 @@ const NavigationBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <NavLink exact="true" className="nav-link" to="/portfolio">Home</NavLink>
+              <NavLink exact="true" className="nav-link" to="/">Home</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/portfolio/about">About</NavLink>
+              <NavLink className="nav-link" to="/about">About</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/portfolio/projects">Projects</NavLink>
+              <NavLink className="nav-link" to="/projects">Projects</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/portfolio/contact">Contact</NavLink>
+              <NavLink className="nav-link" to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>
